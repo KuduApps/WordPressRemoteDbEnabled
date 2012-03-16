@@ -19,6 +19,7 @@ $action = isset( $_POST['action'] ) ? $_POST['action'] : 'splash';
 
 $blogs = get_blogs_of_user( $current_user->ID );
 
+
 $updated = false;
 if ( 'updateblogsettings' == $action && isset( $_POST['primary_blog'] ) ) {
 	check_admin_referer( 'update-my-sites' );
@@ -34,6 +35,7 @@ if ( 'updateblogsettings' == $action && isset( $_POST['primary_blog'] ) ) {
 
 $title = __( 'My Sites' );
 $parent_file = 'index.php';
+
 
 get_current_screen()->add_help_tab( array(
 	'id'      => 'overview',

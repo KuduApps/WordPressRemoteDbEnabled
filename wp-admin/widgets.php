@@ -32,6 +32,7 @@ else
 
 do_action( 'sidebar_admin_setup' );
 
+
 $title = __( 'Widgets' );
 $parent_file = 'themes.php';
 

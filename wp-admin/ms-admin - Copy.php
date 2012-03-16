@@ -1,6 +1,6 @@
 <?php
 /**
- * Multisite sites administration panel.
+ * Multisite administration panel.
  *
  * @package WordPress
  * @subpackage Multisite
@@ -9,8 +9,6 @@
 
 require_once( './admin.php' );
 
-wp_redirect( network_admin_url('sites.php') );
+wp_redirect( network_admin_url() );
 exit;
-
-
 ?>

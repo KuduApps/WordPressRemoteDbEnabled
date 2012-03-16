@@ -296,3 +296,4 @@ if ( $wp_list_table->has_items() )
 
 <?php
 include('./admin-footer.php');
+

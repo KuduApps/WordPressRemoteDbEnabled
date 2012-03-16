@@ -14,6 +14,7 @@ $submenu_file = 'edit-comments.php';
 
 wp_reset_vars( array('action') );
 
+
 if ( isset( $_POST['deletecomment'] ) )
 	$action = 'deletecomment';
 
