@@ -356,7 +356,7 @@ function populate_options() {
 	'siteurl' => $guessurl,
 	'blogname' => __('My Site'),
 	/* translators: blog tagline */
-	'blogdescription' => __('Just another WordPress site'),
+	'blogdescription' => __('Description Changed!'),
 	'users_can_register' => 0,
 	'admin_email' => 'you@example.com',
 	'start_of_week' => 1,
